@@ -146,7 +146,7 @@ Add the following `npm` task to your `tasks.json` file:
 ...
 "name": "vuejs: chrome",
 "url": "http://localhost:8080",
-"webRoot": "${workspaceFolder}/src",
+"webRoot": "${workspaceFolder}",
 "breakOnLoad": true,
 "preLaunchTask": "serve",
 ...
